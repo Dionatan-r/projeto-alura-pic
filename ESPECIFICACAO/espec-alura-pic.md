@@ -29,14 +29,15 @@ A aplicação conta com funcionalidades para atender a estas expectativas:
 
 | *User story* | Critérios de aceite |
 | -----------  | ------------------- |
-| **Como** uma pessoa qualquer<br>**Desejo** me registrar no sistema<br>**Para** ter acesso as funcionalidades de upload de fotos | 1. As informações necessárias para cadastrar um usuário são: ``email``, ``nome completo``, ``nome de usuario`` e ``senha``. |
+| **Como** uma pessoa qualquer<br>**Desejo** me registrar no sistema<br>**Para** ter acesso as funcionalidades do sistema.| 1. As informações necessárias para cadastrar um usuário são: ``email``, ``nome completo``, ``nome de usuario`` e ``senha``. |
 | - | 2. O formato aceito de e-mail segue o padrão `nomeUtilizador@dominio`.<br>Exemplo: ``nome@email.com``.<br>Se o e-mail informado possuir um formato inválido, a operação de registro deverá ser cancelada. |
 | - | 3. Não deve ser possível cadastrar um usuário com um nome de usuário já utilizado no cadastro de outro usuário. |
 | - | 4. Se houver a tentativa de cadastrar um usuário com nome de usuário já existente, o processo deverá ser bloqueado com a mensagem: ``Username already taken`. |
 | - | 5. Não deve ser possível cadastrar um ``email`` com mais de 254 caracteres, sendo que o nome do utilizador deve ter no máximo 64 caracteres excluindo o arroba e o domínio deve ter no máximo 190 caracteres incluindo o arroba. |
 | - | 6. Não deve ser possível cadastrar um ``nome completo`` com menos de 2 caracteres ou com mais de 40 caracteres. |
-| - | 7. Não deve ser possível cadastrar um ``nome de usuário`` com menos de 2 caracteres ou com mais de 40 caracteres. |
+| - | 7. Não deve ser possível cadastrar um ``nome de usuário`` com menos de 2 caracteres ou com mais de 30 caracteres. |
 | - | 8. Não deve ser possível cadastrar uma ``senha`` com menos de 8 caracteres ou com mais de 18 caracteres. |
+| - | 9. Não deve ser possível cadastrar um ``nome de usuário`` com letras maiúsculas, com espaço ou caracteres especiais. |
 
 ### 2.2. Login com usuário cadastrado
 
